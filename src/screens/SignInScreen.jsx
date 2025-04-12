@@ -22,7 +22,7 @@ export default function SignInScreen() {
       setMsg(result.error);
     } else {
       setMsg('');
-      navigation.navigate('CategoryList');
+      navigation.navigate('Home');
     }
   };
 

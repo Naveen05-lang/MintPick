@@ -27,7 +27,6 @@ export default function ProductListScreen({ route, navigation }) {
   } = useProductStore();
 
   const selectedCategory = route?.params?.selectedCategory;
-
   const filteredProducts = getFilteredSortedSearchedProducts();
 
   useEffect(() => {
@@ -53,7 +52,7 @@ export default function ProductListScreen({ route, navigation }) {
         <View style={styles.pickerWrapper}>
           <Picker
             selectedValue={useProductStore.getState().sort}
-            onValueChange={(itemValue) => setSort(itemValue)}
+            onValueChange={setSort}
             style={styles.picker}
             dropdownIconColor="#000"
           >
@@ -64,27 +63,8 @@ export default function ProductListScreen({ route, navigation }) {
             <Picker.Item label="Price: High to Low" value="high-low" color="#000" />
           </Picker>
         </View>
-
-        {!selectedCategory && (
-          <View style={styles.pickerWrapper}>
-            <Picker
-              selectedValue={useProductStore.getState().category}
-              onValueChange={(itemValue) => setCategory(itemValue)}
-              style={styles.picker}
-              dropdownIconColor="#000"
-            >
-              <Picker.Item label="All Categories" value="all" color="#000" />
-              <Picker.Item label="Men's Clothing" value="men's clothing" color="#000" />
-              <Picker.Item label="Women's Clothing" value="women's clothing" color="#000" />
-              <Picker.Item label="Jewelery" value="jewelery" color="#000" />
-              <Picker.Item label="Electronics" value="electronics" color="#000" />
-              <Picker.Item label="Beauty" value="beauty" color="#000" />
-            </Picker>
-          </View>
-        )}
       </View>
 
-      {/* Show selected category and clear button */}
       {selectedCategory && (
         <View style={styles.selectedInfo}>
           <Text style={styles.selectedText}>Category: {selectedCategory}</Text>
@@ -103,7 +83,11 @@ export default function ProductListScreen({ route, navigation }) {
           <FlatList
             data={filteredProducts}
             keyExtractor={(item) => item.id.toString()}
-            renderItem={({ item }) => <ProductCard product={item} />}
+            renderItem={({ item }) => (
+              <View style={styles.cardWrapper}>
+                <ProductCard product={item} />
+              </View>
+            )}
             numColumns={2}
             columnWrapperStyle={styles.columnWrapper}
             onEndReached={loadMore}
@@ -124,9 +108,7 @@ const styles = StyleSheet.create({
   },
   pickerRow: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
-    gap: 10,
-    marginBottom: 5,
+    marginBottom: 10,
   },
   pickerWrapper: {
     flex: 1,
@@ -134,41 +116,34 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     overflow: 'hidden',
     elevation: 3,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 5,
   },
   picker: {
-    height: 52,
-    width: '100%',
+    height: 50,
     color: '#000',
-    fontSize: 14,
-    paddingLeft: 8,
   },
   selectedInfo: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'center',
-    marginVertical: 10,
+    marginBottom: 10,
     paddingHorizontal: 10,
   },
   selectedText: {
     fontSize: 16,
-    fontWeight: '500',
     color: '#000',
-    textTransform: 'capitalize',
   },
   clearBtn: {
     color: 'blue',
     fontWeight: 'bold',
-    fontSize: 14,
   },
   listContainer: {
     flex: 1,
   },
   columnWrapper: {
     justifyContent: 'space-between',
-    paddingHorizontal: 0,
+    paddingHorizontal: 4,
+  },
+  cardWrapper: {
+    flex: 1,
+    margin: 6,
   },
 });

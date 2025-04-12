@@ -59,19 +59,18 @@ const useProductStore = create((set, get) => ({
 
     let result = [...allProducts];
 
-    // Filter by category
+    
     if (category !== 'all') {
       result = result.filter((item) => item.category === category);
     }
 
-    // Filter by search in title
     if (search.trim()) {
       result = result.filter((item) =>
         item.title.toLowerCase().includes(search.toLowerCase())
       );
     }
 
-    // Sorting
+    
     switch (sort) {
       case 'low-high':
         result.sort((a, b) => a.price - b.price);
@@ -87,7 +86,7 @@ const useProductStore = create((set, get) => ({
         break;
     }
 
-    // Paginate
+    
     const paginated = result.slice(0, page * perPage);
     set({ displayedProducts: paginated });
   },
