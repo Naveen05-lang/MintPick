@@ -193,10 +193,11 @@ MintPick/
 
 
 ## SignUp Page
-![Screenshot_2025-04-12-14-57-27-31_b258f7ca7d09f8cabd160a38c17a6faa]
+![SignUp Page](./screenshots/Screenshot_2025-04-12-14-57-27-31_b258f7ca7d09f8cabd160a38c17a6faa.png)
 
-## SignIn page
-![Screenshot_2025-04-12-14-57-37-14_b258f7ca7d09f8cabd160a38c17a6faa]
+## SignIn Page
+![SignIn Page](./screenshots/Screenshot_2025-04-12-14-57-37-14_b258f7ca7d09f8cabd160a38c17a6faa.png)
+
 
 ## Home Page
 ![Screenshot_2025-04-12-14-57-51-17_b258f7ca7d09f8cabd160a38c17a6faa]
