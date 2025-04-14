@@ -193,24 +193,23 @@ MintPick/
 
 
 ## SignUp Page
-![Screenshot_2025-04-12-14-57-27-31_b258f7ca7d09f8cabd160a38c17a6faa](https://github.com/user-attachments/assets/a82a0249-cd7e-49ff-967f-141a69bdd125)
+![Screenshot_2025-04-12-14-57-27-31_b258f7ca7d09f8cabd160a38c17a6faa]
 
 ## SignIn page
-![Screenshot_2025-04-12-14-57-37-14_b258f7ca7d09f8cabd160a38c17a6faa](https://github.com/user-attachments/assets/46cae453-651f-4988-a7f2-b9e06d1df3cf)
+![Screenshot_2025-04-12-14-57-37-14_b258f7ca7d09f8cabd160a38c17a6faa]
 
 ## Home Page
-![Screenshot_2025-04-12-14-57-51-17_b258f7ca7d09f8cabd160a38c17a6faa](https://github.com/user-attachments/assets/592d64dc-d2f9-40c9-978e-10555aadd290)
+![Screenshot_2025-04-12-14-57-51-17_b258f7ca7d09f8cabd160a38c17a6faa]
 
 ## Product Listing Page
-![Screenshot_2025-04-12-14-58-26-56_b258f7ca7d09f8cabd160a38c17a6faa](https://github.com/user-attachments/assets/3bb05698-01c5-4f42-a3a9-3676e41dbfc0)
+![Screenshot_2025-04-12-14-58-26-56_b258f7ca7d09f8cabd160a38c17a6faa]
 
 ## Searching and Sorting
-![Screenshot_2025-04-12-14-58-12-94_b258f7ca7d09f8cabd160a38c17a6faa](https://github.com/user-attachments/assets/ea244c95-3389-4247-981e-8e4b22364931)
+![Screenshot_2025-04-12-14-58-12-94_b258f7ca7d09f8cabd160a38c17a6faa]
 
 
 ## Cart Page
-![Screenshot_2025-04-12-14-58-50-71_b258f7ca7d09f8cabd160a38c17a6faa](https://github.com/user-attachments/assets/11fe45d1-0fe5-4222-bf06-66819856e2c0)
-
+![Screenshot_2025-04-12-14-58-50-71_b258f7ca7d09f8cabd160a38c17a6faa]
 
 
 
