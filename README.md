@@ -191,7 +191,6 @@ MintPick/
 └── package.json               # Dependencies, scripts, and project metadata
 
 
-## SignUp page
 
 
 
