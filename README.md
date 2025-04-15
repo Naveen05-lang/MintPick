@@ -191,26 +191,11 @@ MintPick/
 └── package.json               # Dependencies, scripts, and project metadata
 
 
-
-## SignUp Page
-![SignUp Page](./screenshots/Screenshot_2025-04-12-14-57-27-31_b258f7ca7d09f8cabd160a38c17a6faa.png)
-
-## SignIn Page
-![SignIn Page](./screenshots/Screenshot_2025-04-12-14-57-37-14_b258f7ca7d09f8cabd160a38c17a6faa.png)
+# Getting Started
+![SignUp](https://github.com/user-attachments/assets/eb582cd6-2f32-4866-9205-02fa7fe01020)
 
 
-## Home Page
-![Screenshot_2025-04-12-14-57-51-17_b258f7ca7d09f8cabd160a38c17a6faa]
 
-## Product Listing Page
-![Screenshot_2025-04-12-14-58-26-56_b258f7ca7d09f8cabd160a38c17a6faa]
-
-## Searching and Sorting
-![Screenshot_2025-04-12-14-58-12-94_b258f7ca7d09f8cabd160a38c17a6faa]
-
-
-## Cart Page
-![Screenshot_2025-04-12-14-58-50-71_b258f7ca7d09f8cabd160a38c17a6faa]
 
 
 
