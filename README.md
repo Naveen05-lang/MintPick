@@ -171,6 +171,31 @@ A modern, scalable React Native application that brings together e-commerce func
 
 ---
 
+## Sign In page
+![Screenshot 2025-05-12 083918](https://github.com/user-attachments/assets/16e0df3f-48f6-47e7-80d6-d9808fdd2d56)
+
+## Sign Up page
+![Screenshot 2025-05-12 083849](https://github.com/user-attachments/assets/43db199a-8c12-4e35-97f1-e2125bbb846e)
+
+## Home Screen
+![Screenshot 2025-05-12 084101](https://github.com/user-attachments/assets/bdb80443-b224-4ecb-9856-ebe3f5f585f1)
+
+## ProductListing Screen
+![Screenshot 2025-05-12 084122](https://github.com/user-attachments/assets/aa859cc6-bc4d-4416-ae21-74bd321d594f)
+
+## Searching 
+![Screenshot 2025-05-12 084145](https://github.com/user-attachments/assets/0830194d-785a-4538-a728-210f3b58df3e)
+
+## Sorting
+![Screenshot 2025-05-12 084212](https://github.com/user-attachments/assets/162b4ca6-cb19-4b96-953a-c29547364da7)
+
+## Cart Screen
+![Screenshot 2025-05-12 084309](https://github.com/user-attachments/assets/78d9be24-4ca3-4e7d-b845-f182560d7c7a)
+
+
+
+
+
 ## 🛠️ Project Structure
 
 ```bash
@@ -189,10 +214,17 @@ MintPick/
 │   └── productStore.js        # State management using Zustand for product data
 ├── App.js                     # Entry point integrating navigation and screen flow
 └── package.json               # Dependencies, scripts, and project metadata
+---
 
 
-# Getting Started
-![SignUp](https://github.com/user-attachments/assets/eb582cd6-2f32-4866-9205-02fa7fe01020)
+
+
+
+
+
+
+
+
 
 
 
